@@ -1,29 +1,27 @@
 * {
     box-sizing: border-box;
+    background-color: slategray;
+    margin-top: 100px;
 }
 
 body {
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Times New Roman', Times, serif;
-    margin: 0;
+    margin: 100px;
 }
 
-header {
-    display: fixed;
-    height: 100px;
-    width: 100vw;
-    background-color: rgb(70, 125, 197);
-}
 
 h1 {
-    font-size: 76px;
-    font-weight: 200;
+    font-size: 100px;
+    font-weight: 400;
     text-align: center;
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    background-color: #164c4f;
+    
 }
 
 #mySelfie{
