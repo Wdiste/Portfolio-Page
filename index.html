@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/CSS/reset.css">
     <link rel="stylesheet" href="./assets/CSS/style.css">
-    <title>William's Portfolio Page</title>
+    <title style="display: none;">William's Portfolio Page</title>
 </head>
 
 <body>
@@ -22,21 +22,24 @@
             </ul>
         </nav>
         <section class="Intro">
-            <h2>My name</h2>
-            <!--add my name before photo-->
-
-            <img id="mySelfie" src="./assets/Images/CSS-Box-Model.jpg" alt="Placeholder for photo of developer">
+            <img class="Intro" id="mySelfie" src="./assets/Images/CSS-Box-Model.jpg"
+                alt="Placeholder for photo of developer">
             <!--add my image-->
+
+            <h2 class="Intro">My name</h2>
+            <!--add my name before photo-->
         </section>
         <!--contains photo and name-->
     </header>
     <main>
-        <section id="About me">About me</section>
-        <!--add About me-->
-        <section id="My work">My work</section>
-        <!--add My work-->
-        <section id="Contact me">contact me</section>
-        <!--add Contact me-->
+        <section>
+            <div id="About me">About me</div>
+            <!--add About me-->
+            <div id="My work">My work</div>
+            <!--add My work-->
+            <div id="Contact me">contact me</div>
+            <!--add Contact me-->
+        </section>
     </main>
 
 </body>
